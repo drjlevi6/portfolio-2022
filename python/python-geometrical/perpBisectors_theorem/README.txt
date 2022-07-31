@@ -9,6 +9,7 @@ The folder contains two scripts, perpBisectors.py and perpView.py. They depend u
 The scripts may be downloaded and run using the following shell (bash) commands:
 
 CONTAINER=$HOME/Desktop		# or choose another CONTAINER
+mkdir -p $CONTAINER
 cd $CONTAINER
 git clone https://github.com/drjlevi6/portfolio-2022
 cd $CONTAINER/portfolio-2022/python/python-geometrical/perpBisectors_theorem/
