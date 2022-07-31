@@ -49,3 +49,5 @@ circle_data = [[circ_center_x, circ_center_y], circumradius]
 
 # VIEW: Use module turtle; also plan an alternative display using Ghostscript.
 perpView.show_view_with_turtle(vertices, midpoints, slopes, circle_data)
+
+turtle.done()
