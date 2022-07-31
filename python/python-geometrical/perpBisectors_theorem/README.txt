@@ -15,6 +15,6 @@ git clone https://github.com/drjlevi6/portfolio-2022
 cd $CONTAINER/portfolio-2022/python/python-geometrical/perpBisectors_theorem/
 python -m perpBisectors
 
-where "python" is a version of Python 3 configured to support the Python module tkinter.
+where "python" is a version of Python 3 configured to support the Python modules turtle and tkinter.
 
 Reference: https://en.wikipedia.org/wiki/Triangle_center
