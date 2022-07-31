@@ -1,12 +1,11 @@
 """ Handles the View aspect of the Perpendicular Bisectors program, 
-using Python's Turtle module. (Another module is planned, to present 
-the same view using GhostScript.)"""
+using Python's Turtle module"""
 
 import turtle
 from turtle import *
 import math
 
-global llx, lly, urx, ury
+global llx, lly, urx, ury	# lower-left, upper-right corners of Turtle screen
 llx, lly = [-45, -230]
 urx, ury = [llx + 700, lly + 700]
 
