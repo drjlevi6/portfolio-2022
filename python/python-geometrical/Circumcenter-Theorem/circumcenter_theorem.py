@@ -2,7 +2,7 @@
 
 import math, sys
 import turtle
-import perpView
+import circumView
 
 # Point-slope equation for BC perpendicular bisector
 def get_bisector_BC(x):
@@ -48,6 +48,6 @@ circumradius = math.sqrt(circ_center_x**2 + circ_center_y**2)
 circle_data = [[circ_center_x, circ_center_y], circumradius]
 
 # VIEW: Use module turtle; also plan an alternative display using Ghostscript.
-perpView.show_view_with_turtle(vertices, midpoints, slopes, circle_data)
+circumView.show_view_with_turtle(vertices, midpoints, slopes, circle_data)
 
 turtle.done()

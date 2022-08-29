@@ -1,4 +1,4 @@
-These Python scripts produce an animated rendering of a classical theorem of Euclidean geometry, regarding the perpendicular bisectors of a triangle. The theorem may be stated as follows:
+These Python scripts produce an animated illustration of a classical theorem of Euclidean geometry, regarding the perpendicular bisectors of a triangle and the inscribed circle they generate. The theorem may be stated as follows:
 
 For any triangle ABC, the perpendicular bisectors of segments AB, BC, CA intersect at a common point O; the point O is the center of a circle c containing the triangle's vertices A, B, C.
 
