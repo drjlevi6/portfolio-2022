@@ -4,7 +4,7 @@ usage: python3 ContainerPuzzle.py
 
 The Story ("ethically hacked", edited without permission from www.hackerrank.com):
 
-A certain company would like to know how much inventory exists in their closed inventory compartments. Given a string s consisting of items as "*" and closed compartments as an open and close "|", an array of starting indices startindices, and an array of ending indices endlndices, determine the number of items in closed compartments within the substring between the two indices, inclusive.
+A certain company would like to know how much inventory exists in their closed inventory compartments. Given a string s consisting of items as "*" and closed compartments as an open and close "|", an array of starting indices startindices, and an array of ending indices endlndices (all 1-based), determine the number of items in closed compartments within the substring between the two indices, inclusive.
 
 •	An item is represented as an asterisk ('*' =
 	ascii decimal 42)
