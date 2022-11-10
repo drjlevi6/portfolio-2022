@@ -1,15 +1,12 @@
-'''These commands are meant to be issued inside of a Jupyter notebook;
-	accordingly, the first two lines are not Python commands.'''
-	
-cd /Users/jonathan/Development/Lissajous_Video_Project/arch_spiral
 %matplotlib inline
 
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+#plt.rcParams['text.usetex'] = True  # not sure that we won't need this again
 import seaborn as sn
 
-df = pd.read_csv('lissajous_600points.csv')
+filename = 'lissajous_600points.csv'
+df = pd.read_csv(filename)
 my_fontsize = 12
 
 # Plot the curve in segments, with points between the segments skipped to 
